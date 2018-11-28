@@ -7,19 +7,19 @@
 }
 
 body {
-  font: normal 16px/1.5 'Helvetica Neue', sans-sefif;
-  /* background: #F45B69; */
-  background: grey;
+  font: normal 16px/1.5 "Helvetica Neue", sans-serif;
+  /* background: #1B293B; */
+  background: linear-gradient(35deg, white, #0E293B, #27293B);
   color: #fff;
   overflow-x: hidden;
   padding-bottom: 50px;
-}
+}  /* INTRO SECTION
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-/* INTRO SECTION */
-/* ================================== */
 .intro {
-  background: #1B293A;
-  padding: 100px 0;
+  /* background: #1B293B; */
+  padding-top: 100px;
+  padding-bottom: 0px;
 }
 
 .container {
@@ -33,10 +33,12 @@ h1 {
   font-size: 2.5rem;
 }
 
-/* TIMELINE */
-/* ================================== */
+
+/* TIMELINE
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 .timeline ul {
-  background: #BCC0C6;
+  /* background: #DE564C; */
   padding: 50px 0;
 }
 
@@ -54,7 +56,7 @@ h1 {
   position: absolute;
   left: 50%;
   bottom: 0;
-  transform: translate(-50%);
+  transform: translateX(-50%);
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -65,7 +67,7 @@ h1 {
   position: relative;
   bottom: 0;
   width: 400px;
-  padding 15px;
+  padding: 15px;
   background: #DE564C;
 }
 
@@ -80,22 +82,27 @@ h1 {
 
 .timeline ul li:nth-child(odd) div {
   left: 45px;
+  background-color: #63B67C;
+  opacity: 0.9;
 }
 
 .timeline ul li:nth-child(odd) div::before {
   left: -15px;
   border-width: 8px 16px 8px 0;
-  border-color: transparent #DE564C transparent transparent;
+  border-color: transparent #63B67C transparent transparent;
+  /* border-color: #63B67C; */
+
 }
 
 .timeline ul li:nth-child(even) div {
   left: -439px;
+  background-color: #63B67C;
 }
 
 .timeline ul li:nth-child(even) div::before {
   right: -15px;
   border-width: 8px 0 8px 16px;
-  border-color: transparent transparent transparent #DE564C;
+  border-color: transparent transparent transparent #63B67C;
 }
 
 time {
