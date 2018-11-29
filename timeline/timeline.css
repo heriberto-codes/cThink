@@ -85,6 +85,13 @@ button {
           transition: all 250ms linear;
 }
 
+.dabSandboxPic {
+  height: 200px;
+  margin-top: 15px;
+  transform: rotate(180deg);
+  width: 350px;
+}
+
 .img-with-text {
   display: inline-block;
   text-align: center;
