@@ -36,37 +36,72 @@ h1 {
 
 /* TIMELINE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+article {
+  font-size: 12px;
+  padding-top: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #726f77;
+}
+
 .barcode {
   height: 100px;
   width: 100px;
   margin-top: 5px;
 }
 
-/* .btn {
-  padding: 5px 15px;
-  text-decoration: none;
-  background: transparent;
-  border: 2px solid lighten(#DE564C, 10%);
-  color: lighten(#DE564C, 10%);
-  display: inline-block;
-  position: relative;
-  text-transform: uppercase;
-  font-size: 12px;
-
-  &:hover {
-    box-shadow: none;
-    top: 2px;
-    left: 2px;
-  }
-} */
-
 button {
   background: none;
-  border: 2px solid;
+  border: 1px solid #DE564C;
   font: 3px;
   line-height: 1;
   margin: 0.5em;
   padding: 1em 2em;
+  box-shadow: 3px 3px 3px #DE564C;
+  text-align: center;
+  }
+}
+
+.boxShadow {
+  background: #DE564C;
+  border: 1px solid #DE564C;
+  box-shadow: 0px 2px 0 #DE564C, 2px 4px 6px #eee;
+  font-weight: 900;
+  letter-spacing: 1px;
+  font-family: helvetica, arial, tahoma, verdana;
+  -webkit-transition: all 150ms linear;
+          transition: all 150ms linear;
+}
+
+.boxShadow:hover {
+  background: #fff;
+  border: 1px solid #DE564C;
+  box-shadow: 1px 1px 2px #DE564C;
+  color: #000;
+  text-decoration: none;
+  -webkit-transition: all 250ms linear;
+          transition: all 250ms linear;
+}
+
+.img-with-text {
+  display: inline-block;
+  text-align: center;
+}
+
+.profileAvatar {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+theimgsection {
+  padding: 10px;
+}
+
+.img-with-text img {
+  display: inline-block;
 }
 
 .timeline ul {
@@ -112,7 +147,7 @@ button {
 
 .timeline ul li:nth-child(odd) div {
   background-color: #F8F8F8;
-  border-left: 3px solid #DE564C;
+  border-top: 20px solid #DE564C;
   border-radius: 5px;
   color: #726f77;
   font-family: helvetica, arial, tahoma, verdana;
@@ -129,7 +164,7 @@ button {
 .timeline ul li:nth-child(even) div {
   background-color: #F8F8F8;
   border-radius: 5px;
-  border-right: 3px solid #DE564C;
+  border-top: 20px solid #DE564C;
   color: #726f77;
   left: -439px;
 }
