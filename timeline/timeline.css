@@ -8,16 +8,16 @@
 
 body {
   font: normal 16px/1.5 "Helvetica Neue", sans-serif;
-  /* background: #1B293B; */
   background: linear-gradient(35deg, white, #0E293B, #27293B);
   color: #fff;
   overflow-x: hidden;
   padding-bottom: 50px;
-}  /* INTRO SECTION
+}
+
+/* INTRO SECTION
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .intro {
-  /* background: #1B293B; */
   padding-top: 100px;
   padding-bottom: 0px;
 }
@@ -36,9 +36,13 @@ h1 {
 
 /* TIMELINE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+.barcode {
+  height: 100px;
+  width: 100px;
+  margin-top: 5px;
+}
 
 .timeline ul {
-  /* background: #DE564C; */
   padding: 50px 0;
 }
 
@@ -68,7 +72,6 @@ h1 {
   bottom: 0;
   width: 400px;
   padding: 15px;
-  background: #DE564C;
 }
 
 .timeline ul li div::before {
@@ -81,33 +84,98 @@ h1 {
 }
 
 .timeline ul li:nth-child(odd) div {
+  background-color: #F8F8F8;
+  border-left: 3px solid #DE564C;
+  border-radius: 5px;
+  color: #726f77;
+  font-family: helvetica, arial, tahoma, verdana;
   left: 45px;
-  background-color: #63B67C;
   opacity: 0.9;
 }
 
 .timeline ul li:nth-child(odd) div::before {
   left: -15px;
   border-width: 8px 16px 8px 0;
-  border-color: transparent #63B67C transparent transparent;
-  /* border-color: #63B67C; */
-
+  border-color: transparent #F8F8F8 transparent transparent;
 }
 
 .timeline ul li:nth-child(even) div {
+  background-color: #F8F8F8;
+  border-radius: 5px;
+  border-right: 3px solid #DE564C;
+  color: #726f77;
   left: -439px;
-  background-color: #63B67C;
 }
 
 .timeline ul li:nth-child(even) div::before {
   right: -15px;
   border-width: 8px 0 8px 16px;
-  border-color: transparent transparent transparent #63B67C;
+  border-color: transparent transparent transparent #F8F8F8;
 }
 
 time {
   display: block;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: bold;
-  margin-bottom: 8px;
+}
+
+/* EFFECTS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.timeline ul li::after {
+  transition: background .5s ease-in-out;
+}
+
+.timeline ul li.in-view::after {
+  background: #63B67C;
+}
+
+.timeline ul li div {
+  visibility: hidden;
+  opacity: 0;
+  transition: all .5s ease-in-out;
+}
+
+.timeline ul li:nth-child(odd) div {
+  transform: translate3d(200px, 0, 0);
+}
+
+.timeline ul li:nth-child(even) div {
+  transform: translate3d(-200px, 0, 0);
+}
+
+.timeline ul li.in-view div {
+  transform: none;
+  visibility: visible;
+  opacity: 1;
+}
+
+
+/* GENERAL MEDIA QUERIES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@media screen and (max-width: 900px) {
+  .timeline ul li div {
+    width: 250px;
+  }
+  .timeline ul li:nth-child(even) div {
+    left: -289px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .timeline ul li {
+    margin-left: 20px;
+  }
+  .timeline ul li div {
+    width: calc(100vw - 91px);
+  }
+  .timeline ul li:nth-child(even) div {
+    left: 45px;
+  }
+  .timeline ul li:nth-child(even) div::before {
+    left: -15px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent #F45B69 transparent tr-ansparent;
+  }
 }
