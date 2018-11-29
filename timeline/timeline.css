@@ -42,6 +42,33 @@ h1 {
   margin-top: 5px;
 }
 
+/* .btn {
+  padding: 5px 15px;
+  text-decoration: none;
+  background: transparent;
+  border: 2px solid lighten(#DE564C, 10%);
+  color: lighten(#DE564C, 10%);
+  display: inline-block;
+  position: relative;
+  text-transform: uppercase;
+  font-size: 12px;
+
+  &:hover {
+    box-shadow: none;
+    top: 2px;
+    left: 2px;
+  }
+} */
+
+button {
+  background: none;
+  border: 2px solid;
+  font: 3px;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+}
+
 .timeline ul {
   padding: 50px 0;
 }
