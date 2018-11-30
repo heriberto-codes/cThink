@@ -92,10 +92,43 @@ button {
   width: 350px;
 }
 
+h2 {
+  padding-bottom: 10px;
+}
+
 .img-with-text {
   display: inline-block;
   text-align: center;
 }
+
+.introText {
+  padding-top: 50px;
+}
+
+/* ========= */
+/* animation */
+.roadMapScroll {
+  overflow: hidden;
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation:
+    typing 5.0s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+
+@keyframes typing {
+  from{width: 0;}
+  to{width: 24em;}
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% {border-color: orange }
+}
+/* ========== */
 
 .profileAvatar {
   border-radius: 50%;
