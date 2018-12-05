@@ -14,6 +14,36 @@ body {
   padding-bottom: 50px;
 }
 
+/* =============================== */
+/* Nav section */
+/* =============================== */
+
+.blue {
+  background-color: #47B0BE;
+}
+
+.cThinkColorContainer {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  width: 100%;
+}
+
+.green {
+  background-color: #60B77A;
+}
+
+.orange {
+  background-color: #E9A02E;
+}
+
+.red {
+  background-color: #E05547;
+}
+
+.topNavBorder {
+  height: 14px;
+}
+
 /* INTRO SECTION
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
