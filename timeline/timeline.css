@@ -98,7 +98,7 @@ h1 {
 /* TIMELINE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 article {
-  font-size: 12px;
+  font-size: 16px;
   padding-top: 10px;
 }
 
@@ -201,8 +201,8 @@ h2 {
 
 .profileAvatar {
   border-radius: 50%;
-  height: 50px;
-  width: 50px;
+  height: 100px;
+  width: 100px;
 }
 
 theimgsection {
