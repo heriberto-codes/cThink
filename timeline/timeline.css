@@ -98,8 +98,12 @@ h1 {
 /* TIMELINE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 article {
-  font-size: 16px;
+  font-size: 14px;
   padding-top: 10px;
+}
+
+#teamAvatar {
+  font-size: 16px;
 }
 
 a {
@@ -185,6 +189,12 @@ h2 {
   animation:
     typing 5.0s steps(40, end),
     blink-caret .75s step-end infinite;
+}
+
+.statusUpdate {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
 }
 
 
