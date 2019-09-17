@@ -11,10 +11,7 @@ Heriberto set out to come up with a solution that can support code newbies acros
 cThink (computational thinking) 💭 is a progressive web app that focuses on the abstraction piece of the computational thinking model. This platform allows students to utilize the Draw, Act, Build **{D.A.B}** pedagogy and helps them retain complex coding concepts by associating them with personalized analogies, building them out, and saving their process.
 
 ## Tech Stack
-- DB: MongoDB
-
-- Server: Node, Express
-
-- Client: React, Redux
-
-- Continuous Integration: Travis CI
+- **DB**: MongoDB
+- **Server**: Node, Express
+- **Client**: React, Redux
+- **Continuous Integration**: Travis CI
