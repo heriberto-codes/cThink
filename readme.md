@@ -12,6 +12,6 @@ cThink (computational thinking) 💭 is a progressive web app that focuses on th
 
 ## Tech Stack
 - **DB**: MongoDB
-- **Server**: Node, Express
+- **Server**: Node, Express/GraphQL
 - **Client**: React, Redux
 - **Continuous Integration**: Travis CI
