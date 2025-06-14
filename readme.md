@@ -30,3 +30,14 @@ The brain 🧠 stores long-term memories in the hippocampus, which needs context
 
 ##### ```Database```
 - PostgreSQL
+
+
+##### ```Testing```
+- Django Test
+
+
+##### ```CI/CD```
+- Github Actions
+
+##### ```Deployment```
+- fly.io
