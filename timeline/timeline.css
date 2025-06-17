@@ -95,7 +95,7 @@ button {
   padding: 1em 2em;
   box-shadow: 3px 3px 3px #DE564C;
   text-align: center;
-  }
+}
 }
 
 .boxShadow {
@@ -107,7 +107,7 @@ button {
   letter-spacing: 1px;
   font-family: helvetica, arial, tahoma, verdana;
   -webkit-transition: all 150ms linear;
-          transition: all 150ms linear;
+  transition: all 150ms linear;
 }
 
 .boxShadow:hover {
@@ -117,7 +117,7 @@ button {
   color: #726f77;
   text-decoration: none;
   -webkit-transition: all 250ms linear;
-          transition: all 250ms linear;
+  transition: all 250ms linear;
 }
 
 .cThinkWhiteboard {
@@ -146,6 +146,50 @@ h2 {
   padding-top: 50px;
 }
 
+
+/* =============================== */
+/* Year Legend */
+/* =============================== */
+
+#yearLegend {
+  position: fixed;
+  top: 120px;
+  left: 20px;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.6);
+  /* semi-transparent dark */
+  border-left: 4px solid #f39c12;
+  /* subtle accent (orange) */
+  padding: 10px 15px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.3);
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+#yearLegend ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#yearLegend li {
+  margin-bottom: 10px;
+}
+
+#yearLegend a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: color 0.2s, transform 0.2s;
+}
+
+#yearLegend a:hover {
+  color: #f39c12;
+  transform: translateX(4px);
+}
+
+
 /* ========= */
 /* animation */
 .roadMapScroll {
@@ -173,14 +217,27 @@ h2 {
 
 
 @keyframes typing {
-  from{width: 0;}
-  to{width: 24em;}
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 24em;
+  }
 }
 
 @keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% {border-color: orange }
+
+  from,
+  to {
+    border-color: transparent
+  }
+
+  50% {
+    border-color: orange
+  }
 }
+
 /* ========== */
 
 .profileAvatar {
@@ -313,6 +370,7 @@ time {
   .timeline ul li div {
     width: 250px;
   }
+
   .timeline ul li:nth-child(even) div {
     left: -289px;
   }
@@ -322,12 +380,15 @@ time {
   .timeline ul li {
     margin-left: 20px;
   }
+
   .timeline ul li div {
     width: calc(100vw - 91px);
   }
+
   .timeline ul li:nth-child(even) div {
     left: 45px;
   }
+
   .timeline ul li:nth-child(even) div::before {
     left: -15px;
     border-width: 8px 16px 8px 0;
