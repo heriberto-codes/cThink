@@ -1,6 +1,6 @@
 ![cThink Logo](/timeline/img/cThink.png)
 
-## Keep Track of cThink 
+## cThink: A Multisensory Tool for Learning Code
 Link to timeline: https://hroman-codes.github.io/cThink/timeline/timeline.html
 
 ## Description
