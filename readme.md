@@ -8,7 +8,7 @@ When educating a diverse population of students, the ability to break down compl
 
 Heriberto wanted to build something that could help both people new to coding and everyday learners. 🙌.
 
-The result is cThink, a digital learning platform designed to improve retention of technical coding concepts through the Draw ✏️, Act 🎭, Build 🔧 **D.A.B** pedagogy by helping learners retain them through personalized analogies, building them out, and saving their process.
+The result is cThink, a multisensory tool designed to improve retention of technical coding concepts through the Draw ✏️, Act 🎭, Build 🔧 **D.A.B** pedagogy by helping learners retain them through personalized analogies, building them out, and saving their process.
 
 It is centered on the abstraction component of the computational thinking model, which allows users to create a simplified representation of a problem that accommodates visual, auditory, and kinesthetic learning styles.
 
