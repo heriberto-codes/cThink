@@ -1,6 +1,6 @@
 ![cThink Logo](/timeline/img/cThink.png)
 
-## cThink: A multisensory tool designed to improve retention of technical coding concepts
+## A multisensory tool designed to improve retention of technical coding concepts
 Link to timeline: https://hroman-codes.github.io/cThink/timeline/timeline.html
 
 ## Description
