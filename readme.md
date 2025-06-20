@@ -1,4 +1,4 @@
-![cThink Logo](/timeline/img/cThink.png)
+![cThink Logo](/timeline/img/cThink_dark.svg)
 
 ## A multisensory tool designed to improve retention of technical concepts
 Link to timeline: https://hroman-codes.github.io/cThink/timeline/timeline.html
