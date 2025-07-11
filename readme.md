@@ -1,21 +1,32 @@
 ![cThink Logo](/timeline/img/cthinkreadme.png)
 
-## A multisensory tool designed to improve retention of technical concepts
+## A Multisensory tool to improve retention of technical concepts
 Link to timeline: https://hroman-codes.github.io/cThink/timeline/timeline.html
 
-## Description
-When educating a diverse population of students, the ability to break down complex concepts becomes quite important. After working closely with students and his son Elijah 👶, Heriberto Roman, a former Technical Instructor, realized a consistent problem that existed with his adult students, elementary student Elijah, and once himself as a code newbie: the problem of being inundated with new, difficult 💻 technical concepts and not being able to process and retain them 😧.
+## What is cThink?
+cThink is a multisensory learning tool that uses the D.A.B. method — Draw ✏️, Act 🎭, Build 🔧 — to help learners simplify technical concepts and retain them through association building.
 
-Heriberto wanted to build something that could help both people new to coding and everyday learners. 🙌.
+Inspired by real classroom experiences and lessons with his young son Elijah 👶, former technical instructor Heriberto Roman set out to address a common challenge: learners at every age struggling to process and retain abstract programming ideas.
 
-The result is cThink, a multisensory tool designed to improve retention of technical coding concepts through the Draw ✏️, Act 🎭, Build 🔧 **D.A.B** pedagogy by helping learners retain them through personalized analogies, building them out, and saving their process.
-
-It is centered on the abstraction component of the computational thinking model, which allows users to create a simplified representation of a problem that accommodates visual, auditory, and kinesthetic learning styles.
+cThink answers that challenge by making the learning process visual, auditory, and kinesthetic — which accelerates understanding and boosts memory retention.
 
 ## How It Works
-Say a student 🧑‍🎓 is introduced to a programming method, through the cThink platform, they are prompted to draw their interpretation of that method, to act out or communicate an instance of that reference, and then to build the code they were introduced to. Because this process incorporates the three main styles of learning: Visual 🙈,  Auditory 🙉, and  Kinesthetic 🙊, cThink allows the learning to code process to be a creative and more personal experience, while which optimizing the retention of information into long term memory
+When introduced to a new coding concept, learners follow a 3-step process:
 
-The brain 🧠 stores long-term memories in the hippocampus, which needs context to store information. The context, in this case, is not lines of code. It is the mnemonic and rehearsal that will cause the memory to move from working memory into long-term memory. A change that starts in the brain’s hippocampus.
+	1. ✏️ Draw it – Learners create visual representations of a concept, focusing on key parts rather than syntax. This simplifies complexity — a core abstraction skill.
+
+	2. 🎭 Act it – Embodying or role-playing a technical idea forces learners to identify what matters most in a process. It encourages simplified, real-world analogies.
+
+	3. 🔧 Build it – After conceptualizing and simplifying, students implement a solution — just like how abstraction leads into writing code or building models.
+
+This approach taps into the brain’s hippocampus, which stores long-term memories by using context and repetition. Instead of memorizing code, learners develop personalized anchors — through creative rehearsal — that move knowledge from working memory into long-term memory.
+
+## Why It Matters
+	• 🚀 Boosts retention of abstract and difficult coding topics
+	• 🧠 Supports all learning styles — visual, auditory, kinesthetic
+	• 🧒 Great for both adult learners and younger students
+	• 🎓 Built on the abstraction principle of computational thinking
+
 
 ## Tech Stack
 ##### ```Backend```
