@@ -14,6 +14,13 @@ body {
   padding-bottom: 50px;
 }
 
+p,
+h1,
+h2,
+h3 {
+  font-family: "IBM Plex Mono", monospace;
+}
+
 /* =============================== */
 /* Nav section */
 /* =============================== */
