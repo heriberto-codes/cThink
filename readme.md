@@ -21,6 +21,11 @@ When introduced to a new coding concept, learners follow a 4-step process:
 	misconceptions. This helps tailor the D.A.B. experience. 
 	to their needs.
 
+	Our learning assessment uses Bloom’s Taxonomy (Revised Version) 
+	to quickly diagnose conceptual gaps and VARK-style prompts to 
+	identify learning preferences — allowing us to tailor the 
+	Draw, Act, Build experience to each user’s needs.
+
 	⸻
 
 	2. ✏️ Draw it
