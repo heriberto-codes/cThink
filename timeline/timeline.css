@@ -18,7 +18,8 @@ p,
 h1,
 h2,
 h3,
-li {
+li,
+ul {
   font-family: "IBM Plex Mono", monospace;
 }
 
