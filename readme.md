@@ -15,11 +15,10 @@ cThink answers that challenge by making the learning process visual, auditory, a
 ## How It Works
 When introduced to a new coding concept, learners follow a 4-step process:
 
-	1. 🧠 Assess it – Learning Assessment
-	Before diving in, learners complete a short, low-stakes. 
-	assessment that gauges their prior knowledge and surfaces. 
-	misconceptions. This helps tailor the D.A.B. experience. 
-	to their needs.
+	1. 🧠 Assess it – learners complete a short, low-stakes 
+	learning assessment that gauges their prior knowledge 
+	and surfaces misconceptions. This helps tailor the D.A.B.   
+	experience to their needs.
 
 	Our learning assessment uses Bloom’s Taxonomy (Revised Version) 
 	to quickly diagnose conceptual gaps and VARK-style prompts to 
