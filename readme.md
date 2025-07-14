@@ -15,11 +15,17 @@ cThink answers that challenge by making the learning process visual, auditory, a
 ## How It Works
 When introduced to a new coding concept, learners follow a 3-step process:
 
-	1. ✏️ Draw it – Learners create visual representations of a concept, focusing on key parts rather than syntax. This simplifies complexity — a core abstraction skill.
+	• ✏️ Draw it – Learners create visual representations 
+	of a concept, focusing on key parts rather than syntax  
+	This simplifies complexity — a core abstraction skill
 
-	2. 🎭 Act it – Embodying or role-playing a technical idea forces learners to identify what matters most in a process. It encourages simplified, real-world analogies.
+	• 🎭 Act it – Embodying or role-playing a technical idea 
+	forces learners to identify what matters most in a process.  
+	It encourages simplified, real-world analogies.
 
-	3. 🔧 Build it – After conceptualizing and simplifying, students implement a solution — just like how abstraction leads into writing code or building models.
+	• 🔧 Build it – After conceptualizing and simplifying,  
+	students implement a solution — just like how abstraction. 
+	leads into writing code or building models.
 
 This approach taps into the brain’s hippocampus, which stores long-term memories by using context and repetition. Instead of memorizing code, learners develop personalized anchors — through creative rehearsal — that move knowledge from working memory into long-term memory.
 
