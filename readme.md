@@ -42,8 +42,7 @@ When introduced to a new coding concept, learners follow a 4-step process:
 	a solution — just like how abstraction leads into writing 
 	code or building models.
 
-
-This approach taps into the brain’s hippocampus, which stores long-term memories by using context and repetition. Instead of memorizing code, learners develop personalized anchors — through creative rehearsal — that move knowledge from working memory into long-term memory.
+This step-by-step approach activates the brain’s hippocampus — the region responsible for long-term memory — by combining context, repetition, and multisensory engagement. Rather than relying on rote memorization, learners build personalized mental anchors that help transfer knowledge from short-term to long-term memory.
 
 ## Why It Matters
 	• 🚀 Boosts retention of abstract and difficult coding topics
