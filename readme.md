@@ -1,4 +1,5 @@
 ![cThink Logo](/timeline/img/cthinkreadme.png)
+<br>
 Make Coding Stick
 
 ## A Multisensory tool to improve retention of technical concepts
