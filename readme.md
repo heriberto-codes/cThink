@@ -6,7 +6,7 @@ Make Coding Stick
 Link to timeline: https://hroman-codes.github.io/cThink/timeline/timeline.html
 
 ## What is cThink?
-cThink is a multisensory learning tool that uses the D.A.B. method — Draw ✏️, Act 🎭, Build 🔧 — to help learners simplify technical concepts and retain them through association building.
+cThink is a multisensory learning tool that uses a learning assessment and the D.A.B. method — Draw ✏️, Act 🎭, Build 🔧 — to help learners simplify technical concepts and retain them through association building.
 
 Inspired by real classroom experiences and lessons with his young son Elijah 👶, former technical instructor Heriberto Roman set out to address a common challenge: learners at every age struggling to process and retain abstract programming ideas.
 
