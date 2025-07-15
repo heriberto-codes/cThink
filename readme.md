@@ -37,7 +37,7 @@ When introduced to a new coding concept, learners follow a 4-step process:
 	3. 🎭 Act it
 	Embodying or role-playing a technical idea forces learners 
 	to identify what matters most in a process. It encourages 
-	simplified, real-world analogies.
+	simplified, real-world associations.
 
 	⸻
 
