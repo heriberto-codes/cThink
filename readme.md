@@ -63,6 +63,7 @@ This step-by-step approach activates the brain’s hippocampus — the region re
 - DTL
 - Django Cotton
 - Alpine.js
+- React
 - DaisyUI
 - TailwindCSS
 
