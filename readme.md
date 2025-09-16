@@ -58,6 +58,7 @@ This step-by-step approach activates the brain’s hippocampus — the region re
 ## Tech Stack
 ##### ```Backend```
 - Django / Python
+- Django REST
 
 ##### ```Frontend```
 - DTL
@@ -70,10 +71,8 @@ This step-by-step approach activates the brain’s hippocampus — the region re
 ##### ```Database```
 - PostgreSQL
 
-
 ##### ```Testing```
 - Django Test
-
 
 ##### ```CI/CD```
 - Github Actions
