@@ -57,25 +57,27 @@ This step-by-step approach activates the brain’s hippocampus — the region re
 
 ## Tech Stack
 ##### ```Backend```
-- Django / Python
-- Django REST
+- [Python/Django](https://www.djangoproject.com/)
+- [Django Test](https://docs.djangoproject.com/en/4.2/topics/testing/)
+- [Django REST](https://www.django-rest-framework.org)
 
 ##### ```Frontend```
-- DTL
-- Django Cotton
-- Alpine.js
-- React
-- DaisyUI
-- TailwindCSS
+- [Django Template Language (DTL)](https://docs.djangoproject.com/en/4.2/topics/templates/)
+- [HTMX](https://htmx.org)
+- [Django Cotton](https://django-cotton.com)
+- [Alpine](https://alpinejs.dev)
+- [React](https://react.dev)
+- [daisyUI](https://daisyui.com)
+- [TailwindCSS](https://tailwindcss.com)
 
 ##### ```Database```
-- PostgreSQL
+- [Postgres](https://www.postgresql.org/)
 
 ##### ```Testing```
-- Django Test
+- [Django Test](https://docs.djangoproject.com/en/4.2/topics/testing/)
 
 ##### ```CI/CD```
-- Github Actions
+- [Github Actions](https://github.com/features/actions)
 
 ##### ```Deployment```
-- fly.io
+- [fly.io](https://fly.io)

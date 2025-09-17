@@ -3,4 +3,4 @@ from django.apps import AppConfig
 
 class LearningAssessmentConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'learning_assessment'
+    name = 'apps.learning_assessment'

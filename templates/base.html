@@ -1,0 +1,22 @@
+{% load static %}
+{% load tailwind_tags %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}cThink{% endblock %}</title>
+    
+    {% tailwind_css %}
+</head>
+
+<body>
+    
+    {% block content %}
+    {% endblock %}
+
+    {% comment %} <footer>
+        <p>&copy; {{ now|date:"Y" }} Empowered Path Therapy</p>
+    </footer> {% endcomment %}
+
+</body>
+</html>
