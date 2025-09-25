@@ -1,5 +1,6 @@
 {% load static %}
 {% load tailwind_tags %}
+{% load django_htmx %}
 
 <html lang="en">
 <head>
@@ -7,6 +8,7 @@
     <title>{% block title %}cThink{% endblock %}</title>
     
     {% tailwind_css %}
+    {% htmx_script %}
 </head>
 
 <body>

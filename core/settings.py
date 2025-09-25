@@ -32,7 +32,7 @@ SECRET_KEY = os.getenv("SECRET_KEY")
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 
 ALLOWED_HOSTS = []
@@ -54,6 +54,7 @@ INSTALLED_APPS = [
     'tailwind',
     'theme',
     'django_cotton',
+    'django_htmx',
 ]
 
 
@@ -68,6 +69,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'django_htmx.middleware.HtmxMiddleware',
 ]
 
 
@@ -137,6 +139,8 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 STATIC_URL = 'static/'
+STATICFILES_DIRS = [BASE_DIR / "static"]  # Your app-level static files
+STATIC_ROOT = BASE_DIR / "staticfiles"    # Where collectstatic puts files
 
 
 # Default primary key field type
