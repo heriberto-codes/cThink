@@ -11,7 +11,7 @@ graph TD
     C -->|Handles user login/signup| AU[🔐 Authentication Provider]
 
     subgraph Software system diagram
-        C["cThink <br> [software system]<br> Allows users to sign up, <br> provide learning assessments <br> and DAB module access."]
+        C["DAB <br> [software system]<br> Allows users to sign up, <br> take learning assessments <br> and DAB module access."]
         E["Email/Notification <br> [software system] <br>e.g., AWS SES"]
         AN["Analytics <br> [software system]<br>e.g., Mixpanel, PostHog"]
         AU["Authentication Provider <br> [software system]<br>e.g., Google OAuth, Auth0"]
