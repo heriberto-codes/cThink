@@ -1,6 +1,4 @@
 ![cThink Logo](/timeline/img/cthinkreadme.png)
-<br>
-Make Coding Stick
 
 ## A Multisensory tool to improve retention of technical concepts
 Link to timeline: https://heriberto-codes.github.io/cThink/timeline/timeline.html
