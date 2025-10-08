@@ -52,6 +52,8 @@ This step-by-step approach activates the brain’s hippocampus — the region re
 	• 🧒 Great for both adult learners and younger students
 	• 🎓 Built on the abstraction principle of computational thinking
 
+## System Context Diagram (C4)
+![cThink Logo](/static/img/cThink_C4_architecture.png)
 
 ## Tech Stack
 ##### ```Backend```
