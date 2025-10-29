@@ -4,11 +4,11 @@
 Link to timeline: https://heriberto-codes.github.io/cThink/timeline/timeline.html
 
 ## What is cThink?
-cThink is a multisensory learning tool that uses a learning assessment and the D.A.B. method — Draw ✏️, Act 🎭, Build 🔧 — to help learners simplify technical concepts and retain them through association building.
+cThink is a multi-sensory learning tool that uses a learning assessment and the D.A.B. method — Draw ✏️, Act 🎭, Build 🔧 — to help learners simplify technical concepts and retain them through association building.
 
-Inspired by real classroom experiences and lessons with his young son Elijah 👶, former technical instructor Heriberto Roman set out to address a common challenge: learners at every age struggling to process and retain abstract programming ideas.
+Inspired by real classroom experiences and lessons with his young son Elijah, former full-stack coding instructor Heriberto Roman set out to address a common challenge: learners of all ages struggling to process and retain abstract concepts.
 
-cThink answers that challenge by making the learning process visual, auditory, and kinesthetic — which accelerates understanding and boosts memory retention.
+cThink tackles this challenge by making the learning process visual, auditory, and kinesthetic — accelerating understanding and boosting memory retention.
 
 ## How It Works
 When introduced to a new coding concept, learners follow a 4-step process:
