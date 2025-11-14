@@ -26,25 +26,32 @@ When introduced to a new technical concept, learners follow a 4-step process:
 	⸻
 
 	2. ✏️ Draw it
-	Learners create visual representations of a concept, focusing. 
-	on key parts rather than syntax. This simplifies complexity. 
-	— a core abstraction skill.
+	By drawing what they understand, learners translate abstract technical 
+	ideas into visual models that highlight key relationships, not syntax. 
+	This process strengthens abstraction — a critical skill for problem-solving — 
+	and helps shift complex concepts into long-term memory.
 
 	⸻
 
 	3. 🎭 Act it
-	Embodying or role-playing a technical idea forces learners 
-	to identify what matters most in a process. It encourages 
-	simplified, real-world associations.
+	By acting out technical concepts, learners are pushed to prioritize 
+	core steps and logic, rather than surface details. 
+    Role-playing transforms abstract processes into concrete, 
+	real-world analogies, activating kinesthetic memory and making 
+	the learning experience more memorable and meaningful.
 
 	⸻
 
 	4. 🔧 Build it
-	After conceptualizing and simplifying, students implement 
-	a solution — just like how abstraction leads into writing 
-	code or building models.
+	Once learners have visualized and acted out a concept, 
+	they move into creation. By building something tangible — 
+	like code, a prototype, or a process — they transform abstract 
+	thinking into concrete output. This step reinforces transferable 
+	problem-solving skills and mirrors how developers 
+	turn mental models into functioning systems.
 
-This step-by-step approach activates the brain’s hippocampus — the region responsible for long-term memory — by combining context, repetition, and multisensory engagement. Rather than relying on rote memorization, learners build personalized mental anchors that help transfer knowledge from short-term to long-term memory.
+
+This structured, multi-sensory approach stimulates the hippocampus — the brain’s memory center — by layering context, active repetition, and engaging modalities like drawing, role-play, and building. Instead of leaning on rote memorization, learners create personalized mental anchors that promote deeper understanding and accelerate the transfer of knowledge into long-term memory.
 
 ## Why It Matters
 	• 🚀 Boosts retention of abstract and difficult coding topics
