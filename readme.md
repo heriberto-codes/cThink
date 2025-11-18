@@ -47,7 +47,7 @@ When introduced to a new technical concept, learners follow a 4-step process:
 	they move into creation. By building something tangible — 
 	like code, a prototype, or a process — they transform abstract 
 	thinking into concrete output. This step reinforces transferable 
-	problem-solving skills and mirrors how developers 
+	problem-solving skills and mirrors how learners 
 	turn mental models into functioning systems.
 
 
