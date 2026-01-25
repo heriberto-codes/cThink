@@ -6,8 +6,12 @@ chardet==5.2.0
 charset-normalizer==3.4.3
 click==8.2.1
 cookiecutter==2.6.0
+<<<<<<< Updated upstream
 Django==5.2.9
 django-alpine==0.1.4
+=======
+Django==6.0.1
+>>>>>>> Stashed changes
 django-browser-reload==1.19.0
 django-cotton==2.1.3
 django-htmx==1.26.0
