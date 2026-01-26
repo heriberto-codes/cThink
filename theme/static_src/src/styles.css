@@ -9,3 +9,12 @@
   * the scope of this path.
   */
 @source "../../../**/*.{html,py,js}";
+
+@theme {
+  --color-cthinkblue: #242A3B;
+  --color-cthinkred: #E05548;
+  --color-cthinkorange: #E89E2E;
+  --color-cthinkgreen: #5FB87A;
+  --color-cthinkaqua: #49B1BF;
+  --color-cthinkivory: #FFFFF0
+}
