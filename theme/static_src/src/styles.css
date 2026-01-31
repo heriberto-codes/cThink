@@ -11,10 +11,21 @@
 @source "../../../**/*.{html,py,js}";
 
 @theme {
-  --color-cthinkblue: #242A3B;
-  --color-cthinkred: #E05548;
-  --color-cthinkorange: #E89E2E;
-  --color-cthinkgreen: #5FB87A;
-  --color-cthinkaqua: #49B1BF;
-  --color-cthinkivory: #FFFFF0
+  /* colors */
+  --color-ct-blue: #242A3B;
+  --color-ct-red: #E05548;
+  --color-ct-orange: #E89E2E;
+  --color-ct-green: #5FB87A;
+  --color-ct-aqua: #49B1BF;
+  --color-ct-ivory: #FFFFF0;
+
+  /* border radius */
+  --radius-ct: 15px;
+  --radius-ct-hover: 30px;
+
+  /* font style */
+  --font-ct: "IBM Plex Mono", monospace;
+
+  /* font size  */
+  --text-ct: 1.25rem;
 }

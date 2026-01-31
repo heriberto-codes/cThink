@@ -74,7 +74,6 @@ This structured, multi-sensory approach stimulates the hippocampus — the brain
 - [Django Cotton](https://django-cotton.com)
 - [Alpine](https://alpinejs.dev)
 - [React](https://react.dev)
-- [daisyUI](https://daisyui.com)
 - [TailwindCSS](https://tailwindcss.com)
 
 ##### ```Database```
