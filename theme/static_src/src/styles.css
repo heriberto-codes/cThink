@@ -10,6 +10,9 @@
   */
 @source "../../../**/*.{html,py,js}";
 
+/* =========================
+   THEME TOKENS (design system)
+   ========================= */
 @theme {
   /* colors */
   --color-ct-blue: #242A3B;
@@ -28,4 +31,31 @@
 
   /* font size  */
   --text-ct: 1.25rem;
+}
+
+/* =========================
+   COMPONENT CLASSES
+   ========================= */
+@layer components {
+  .ct-btn {
+    @apply inline-flex justify-center items-center px-3.75 py-2.5 rounded-ct hover:rounded-ct-hover h-15 text-ct-blue text-center transition-[border-radius] duration-600 ease-in-out;
+  }
+
+  /* keyboard focus (accessibility) */
+  .ct-btn:focus-visible {
+    @apply outline-none ring-2 ring-ct-aqua ring-offset-2 ring-offset-ct-ivory;
+  }
+
+  /* Safari / older browsers fallback:
+     show focus ring on :focus, but only when :focus-visible isn't supported */
+  @supports not selector(:focus-visible) {
+    .ct-btn:focus {
+      @apply outline-none ring-2 ring-ct-aqua ring-offset-2 ring-offset-ct-ivory;
+    }
+  }
+
+  /* active - current page state  */
+  .ct-btn[aria-current="page"] {
+    @apply border-2 border-dashed;
+  }
 }
