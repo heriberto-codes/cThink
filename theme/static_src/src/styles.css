@@ -26,11 +26,20 @@
   --radius-ct: 15px;
   --radius-ct-hover: 30px;
 
-  /* font style */
+  /* font family */
   --font-ct: "IBM Plex Mono", monospace;
 
   /* font size  */
   --text-ct: 1.25rem;
+
+  /* The clamp idea (how to pick numbers)
+	•	Min = your mobile font size
+  •	Middle = something like Xrem + Yvw so it grows gradually
+	•	Max = your desktop font size
+	 */
+
+  /* ui / body sizes */
+
 }
 
 /* =========================
