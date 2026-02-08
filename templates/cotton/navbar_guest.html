@@ -4,35 +4,44 @@
         <img src="{% static 'img/cThink_logo.svg' %}" alt='cThink logo' class='w-[clamp(11rem,10rem+6vw,16rem)]'>
     </div>
 
-    <label class="md:hidden bg-ct-green border-0 outline-none ring-0 text-ct-blue btn btn-circle btn-xl swap swap-rotate">
-      <!-- this hidden checkbox controls the state -->
-      <input type="checkbox" />
+    <div class="group md:hidden relative">
+      <label class="bg-ct-green border-0 outline-none ring-0 text-ct-blue btn btn-circle btn-xl swap swap-rotate">
+        <!-- this hidden checkbox controls the state -->
+        <input type="checkbox" />
 
-      <!-- hamburger icon -->
-      <svg
-        class="fill-current swap-off"
-        xmlns="http://www.w3.org/2000/svg"
-        width="32"
-        height="32"
-        viewBox="0 0 512 512">
-        <path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z" />
-      </svg>
+        <!-- hamburger icon -->
+        <svg
+          class="fill-current swap-off"
+          xmlns="http://www.w3.org/2000/svg"
+          width="32"
+          height="32"
+          viewBox="0 0 512 512">
+          <path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z" />
+        </svg>
 
-      <!-- close icon -->
-      <svg
-        class="fill-current swap-on"
-        xmlns="http://www.w3.org/2000/svg"
-        width="32"
-        height="32"
-        viewBox="0 0 512 512">
-        <polygon
-          points="400 145.49 366.51 112 256 222.51 145.49 112 112 145.49 222.51 256 112 366.51 145.49 400 256 289.49 366.51 400 400 366.51 289.49 256 400 145.49" />
-      </svg>
-    </label>
+        <!-- close icon -->
+        <svg
+          class="fill-current swap-on"
+          xmlns="http://www.w3.org/2000/svg"
+          width="32"
+          height="32"
+          viewBox="0 0 512 512">
+          <polygon
+            points="400 145.49 366.51 112 256 222.51 145.49 112 112 145.49 222.51 256 112 366.51 145.49 400 256 289.49 366.51 400 400 366.51 289.49 256 400 145.49" />
+        </svg>
+      </label>
+
+      <!-- dropdown panel (only on mobile, only when the checkbox inside the swap is checked) -->
+      <div class="right-0 z-50 absolute flex flex-col items-end gap-4 opacity-0 group-has-[input:checked]:opacity-100 mt-4 transition motion-reduce:transition-none -translate-y-2 group-has-[input:checked]:translate-y-0 duration-200 ease-out pointer-events-none group-has-[input:checked]:pointer-events-auto">
+        <c-ct-btn href='#' class='justify-center bg-ct-ivory w-40'>About</c-ct-btn>
+        <c-ct-btn href='#' class='justify-center bg-ct-ivory w-40'>Blog</c-ct-btn>
+        <c-ct-btn href='#' class='justify-center bg-ct-green w-40'>Join Waiting List</c-ct-btn>
+      </div>
+    </div>
 
     <div class='hidden md:flex space-x-5 font-ct text-ct'>
-        <c-ct-btn href='/about' class='bg-ct-ivory'>About</c-ct-btn>
-        <c-ct-btn href='/blog' class='bg-ct-ivory'>Blog</c-ct-btn>
+        <c-ct-btn href='#' class='bg-ct-ivory'>About</c-ct-btn>
+        <c-ct-btn href='#' class='bg-ct-ivory'>Blog</c-ct-btn>
         <c-ct-btn href='#' class='bg-ct-green'>Join Waiting List</c-ct-btn>
     </div>
 </nav>
