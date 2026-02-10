@@ -1,13 +1,14 @@
 {% load static %}
+
 <nav class='flex justify-between items-center p-5'>
     <div class='flex items-center'>
         <img src="{% static 'img/cThink_logo.svg' %}" alt='cThink logo' class='w-[clamp(11rem,10rem+6vw,16rem)]'>
     </div>
 
     <div class="group md:hidden relative">
-      <label class="bg-ct-green border-0 outline-none ring-0 text-ct-blue btn btn-circle btn-xl swap swap-rotate">
+      <label class="bg-ct-green border-0 outline-none ring-0 text-ct-blue btn btn-circle btn-xl swap swap-rotate" aria-label="Toggle menu" aria-controls="ct-mobile-menu" aria-expanded="false">
         <!-- this hidden checkbox controls the state -->
-        <input type="checkbox" />
+        <input type="checkbox" class="sr-only" />
 
         <!-- hamburger icon -->
         <svg
@@ -32,16 +33,20 @@
       </label>
 
       <!-- dropdown panel (only on mobile, only when the checkbox inside the swap is checked) -->
-      <div class="right-0 z-50 absolute flex flex-col items-end gap-4 opacity-0 group-has-[input:checked]:opacity-100 mt-4 transition motion-reduce:transition-none -translate-y-2 group-has-[input:checked]:translate-y-0 duration-200 ease-out pointer-events-none group-has-[input:checked]:pointer-events-auto">
-        <c-ct-btn href='#' class='justify-center bg-ct-ivory w-40'>About</c-ct-btn>
-        <c-ct-btn href='#' class='justify-center bg-ct-ivory w-40'>Blog</c-ct-btn>
-        <c-ct-btn href='#' class='justify-center bg-ct-green w-40'>Join Waiting List</c-ct-btn>
+      <div id="ct-mobile-menu" class="right-0 z-50 absolute flex flex-col items-end gap-4 opacity-0 group-has-[input:checked]:opacity-100 mt-4 transition motion-reduce:transition-none -translate-y-2 group-has-[input:checked]:translate-y-0 duration-200 ease-out pointer-events-none group-has-[input:checked]:pointer-events-auto">
+        {% if mobile_links %}
+          {{ mobile_links }}
+        {% else %}
+          <c-btn href='#' class='justify-center bg-ct-green w-40'>Join Waiting List</c-btn>
+        {% endif %}
       </div>
     </div>
 
     <div class='hidden md:flex space-x-5 font-ct text-ct'>
-        <c-ct-btn href='#' class='bg-ct-ivory'>About</c-ct-btn>
-        <c-ct-btn href='#' class='bg-ct-ivory'>Blog</c-ct-btn>
-        <c-ct-btn href='#' class='bg-ct-green'>Join Waiting List</c-ct-btn>
+      {% if links %}
+        {{ links }}
+      {% else %}
+        <c-btn href='#' class='bg-ct-green'>Join Waiting List</c-btn>
+      {% endif %}
     </div>
 </nav>

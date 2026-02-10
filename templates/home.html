@@ -3,7 +3,19 @@
 {% block content %}
 
 <header>
-    <c-navbar_guest></c-navbar_guest>
+    <c-navbar>
+        <c-slot name="links">
+            <c-btn href='#' class='bg-ct-ivory'>About</c-btn>
+            <c-btn href='#' class='bg-ct-ivory'>Blog</c-btn>
+            <c-btn href='#' class='bg-ct-green'>Join Waiting List</c-btn>
+        </c-slot>
+
+        <c-slot name="mobile_links">
+            <c-btn href='#' class='justify-center bg-ct-ivory w-40'>About</c-btn>
+            <c-btn href='#' class='justify-center bg-ct-ivory w-40'>Blog</c-btn>
+            <c-btn href='#' class='justify-center bg-ct-green w-40'>Join Waiting List</c-btn>
+        </c-slot>
+    </c-navbar>
 </header>
 
 {% endblock %}
