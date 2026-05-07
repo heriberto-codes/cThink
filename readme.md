@@ -1,3 +1,5 @@
+[![wakatime](https://wakatime.com/badge/user/3a78d911-a08a-40c2-bf2c-782c4d20eb23/project/c0623608-3016-4b29-8f29-93922b911480.svg)](https://wakatime.com/badge/user/3a78d911-a08a-40c2-bf2c-782c4d20eb23/project/c0623608-3016-4b29-8f29-93922b911480)
+
 ![cThink Logo](/timeline/img/cthinkreadme.png)
 
 ##

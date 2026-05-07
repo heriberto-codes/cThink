@@ -1,21 +1,25 @@
-{% extends "base.html" %}
+{% extends 'base.html' %}
 
 {% block content %}
 
 <header>
     <c-navbar>
-        <c-slot name="links">
+        <c-slot name='links'>
             <c-btn href='#' class='bg-ct-ivory'>About</c-btn>
             <c-btn href='#' class='bg-ct-ivory'>Blog</c-btn>
             <c-btn href='#' class='bg-ct-green'>Join Waiting List</c-btn>
         </c-slot>
 
-        <c-slot name="mobile_links">
+        <c-slot name='mobile_links'>
             <c-btn href='#' class='justify-center bg-ct-ivory w-40'>About</c-btn>
             <c-btn href='#' class='justify-center bg-ct-ivory w-40'>Blog</c-btn>
             <c-btn href='#' class='justify-center bg-ct-green w-40'>Join Waiting List</c-btn>
         </c-slot>
     </c-navbar>
 </header>
+
+<section class='pr-5 pb-5 pl-5'>
+    <c-hero></c-hero>
+</section>
 
 {% endblock %}
