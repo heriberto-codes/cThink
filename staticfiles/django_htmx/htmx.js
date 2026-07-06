@@ -853,6 +853,20 @@ var htmx = (function() {
     return path
   }
 
+  /**
+   * @param {string} path
+   * @returns {boolean}
+   */
+  function isSafeHistoryPath(path) {
+    try {
+      const normalized = normalizePath(path)
+      const parsed = new URL(normalized, location.origin)
+      return parsed.protocol === 'http:' || parsed.protocol === 'https:'
+    } catch (e) {
+      return false
+    }
+  }
+
   //= =========================================================================================
   // public API
   //= =========================================================================================
@@ -3215,12 +3229,31 @@ var htmx = (function() {
       return null
     }
 
-    url = normalizePath(url)
+    try {
+      url = normalizePath(url)
+    } catch (e) {
+      return null
+    }
+
+    if (!isSafeHistoryPath(url)) {
+      return null
+    }
 
     const historyCache = parseJSON(sessionStorage.getItem('htmx-history-cache')) || []
+    if (!Array.isArray(historyCache)) {
+      return null
+    }
+
     for (let i = 0; i < historyCache.length; i++) {
-      if (historyCache[i].url === url) {
-        return historyCache[i]
+      const item = historyCache[i]
+      if (!item || typeof item.url !== 'string' || typeof item.content !== 'string' || typeof item.title !== 'string') {
+        continue
+      }
+      if (!isSafeHistoryPath(item.url)) {
+        continue
+      }
+      if (item.url === url) {
+        return item
       }
     }
     return null
