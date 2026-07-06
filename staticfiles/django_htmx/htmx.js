@@ -3958,6 +3958,12 @@ var htmx = (function() {
       if (str.indexOf('javascript:') === 0) {
         str = str.slice(11)
         evaluateValue = true
+      } else if (str.indexOf('data:') === 0) {
+        str = str.slice(5)
+        evaluateValue = true
+      } else if (str.indexOf('vbscript:') === 0) {
+        str = str.slice(9)
+        evaluateValue = true
       } else if (str.indexOf('js:') === 0) {
         str = str.slice(3)
         evaluateValue = true
