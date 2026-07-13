@@ -32,7 +32,7 @@ SECRET_KEY = os.getenv("SECRET_KEY")
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 
 ALLOWED_HOSTS = []
@@ -151,5 +151,3 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 if DEBUG:
     INSTALLED_APPS += ['django_browser_reload']
-    MIDDLEWARE += ['django_browser_reload.middleware.BrowserReloadMiddleware']
-    

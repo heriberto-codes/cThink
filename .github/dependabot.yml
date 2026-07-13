@@ -1,0 +1,44 @@
+version: 2
+
+updates:
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "09:00"
+      timezone: "America/New_York"
+    open-pull-requests-limit: 5
+    groups:
+      python-security-updates:
+        applies-to: "security-updates"
+        patterns:
+          - "*"
+      python-patch-and-minor-updates:
+        applies-to: "version-updates"
+        patterns:
+          - "*"
+        update-types:
+          - "patch"
+          - "minor"
+
+  - package-ecosystem: "npm"
+    directory: "/theme/static_src"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "09:15"
+      timezone: "America/New_York"
+    open-pull-requests-limit: 5
+    groups:
+      frontend-security-updates:
+        applies-to: "security-updates"
+        patterns:
+          - "*"
+      frontend-patch-and-minor-updates:
+        applies-to: "version-updates"
+        patterns:
+          - "*"
+        update-types:
+          - "patch"
+          - "minor"
