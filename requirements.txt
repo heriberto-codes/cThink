@@ -1,7 +1,7 @@
 arrow==1.4.0
-asgiref==3.11.1
+asgiref==3.12.1
 binaryornot==0.6.0
-certifi==2026.6.17
+certifi==2026.7.22
 chardet==7.4.3
 charset-normalizer==3.4.9
 click==8.4.2
