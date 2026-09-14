@@ -22,7 +22,7 @@ Pygments==2.21.0
 pytailwindcss==0.3.1
 python-dateutil==2.9.0.post0
 python-dotenv==1.2.3
-python-slugify==8.0.4
+python-slugify==9.0.0
 PyYAML==6.0.3
 requests==2.34.2
 rich==15.0.0
